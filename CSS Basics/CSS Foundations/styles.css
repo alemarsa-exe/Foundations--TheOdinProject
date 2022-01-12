@@ -6,12 +6,25 @@ Es un selector universal*/
 }
 
 /*Ahora vienen los selectores de elementos
-Solo afectan al tag definido*/
+Solo afectan al tag definido*
+Universal selector.*/
 
 div {
     color: blue;
 }
 
+/* Selector de clase.
+Tuve que darle la clase a in <p> para que
+fuera efectivo
+Es case-sensitive*/
 .alert-text {
     color : red;
+}
+
+/*ID Selector. 
+Lo mismo que un selector de clase
+Usas # y es case-sensitive*/
+#Saludo {
+    background-color: aqua;
+    
 }
