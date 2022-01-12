@@ -45,3 +45,14 @@ clases*/
 .no-leido{
     font-size: xx-small;
 }
+
+/*Chaining Selectors
+Aplica para subclases de clases :0
+Inception*/
+.subsection.header{
+    color:rgb(4, 255, 4);
+}
+
+.subsection.preview{
+    color:deeppink;
+}
