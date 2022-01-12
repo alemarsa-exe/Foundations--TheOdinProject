@@ -1,0 +1,17 @@
+/* El prefijo "*"  significa que selecciona todo
+Es un selector universal*/
+
+* {
+    color: purple;
+}
+
+/*Ahora vienen los selectores de elementos
+Solo afectan al tag definido*/
+
+div {
+    color: blue;
+}
+
+.alert-text {
+    color : red;
+}
