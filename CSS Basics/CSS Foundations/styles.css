@@ -26,5 +26,22 @@ Lo mismo que un selector de clase
 Usas # y es case-sensitive*/
 #Saludo {
     background-color: aqua;
-    
+}
+
+/*Gruping selector
+Puedo asignarle las mismas propiedades a distintas
+clases*/
+.leer,
+.no-leido {
+    color: white;
+    background-color: black;
+}
+
+.leer{
+    /*Declaraciones únicas*/
+    font-size: xx-large;
+}
+
+.no-leido{
+    font-size: xx-small;
 }
