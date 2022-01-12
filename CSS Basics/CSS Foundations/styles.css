@@ -1,3 +1,14 @@
+/*La sintaxos en CSS se compone de tres cosas
+
+    selector
+div.bold-text{
+    font-weight: 700;
+     propiedad  valor
+}
+
+*/
+
+
 /* El prefijo "*"  significa que selecciona todo
 Es un selector universal*/
 
